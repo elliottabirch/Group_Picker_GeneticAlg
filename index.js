@@ -1,9 +1,6 @@
-const calcDisagreement = require('./calcDisagreement');
-const calcAgreement = require('./calcAgreement');
-const calcGroupSizeScore = require('./calcGroupSizeScore');
+
 const calcArrangementScore = require('./calcArrangementScore');
 const generateNextGeneration = require('./generateNextGeneration');
-const generateRandomArrangement = require('./generateRandomArrangement');
 const generateMutatedArrangement = require('./generateMutatedArrangement');
 const generateOffspring = require('./generateOffspring');
 const generateRandomGenome = require('./generateRandomGenome');
