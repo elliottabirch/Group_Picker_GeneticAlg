@@ -7,5 +7,5 @@ const generateOffspring = require('./generateOffspring');
 const generateRandomArrangement = require('./generateRandomArrangement');
 
 
-const dummy = require('./Genetic_Algo_Stuff');
+const dummy = require('./organizeDummyData');
 
