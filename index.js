@@ -1,8 +1,11 @@
-var calcDisagreement require('./calcDisagreement')
-var calcAgreement require('./calcAgreement')
-var calcGroupSizeScore require('./calcGroupSizeScore')
-var calcIndividualScore require('./calcIndividualScore')
-var generateMutatedIndividual require('./generateMutatedIndividual')
-var generateOffspring require('./generateOffspring')
-var generateRandomIndividual require('./generateRandomIndividual')
+const calcDisagreement = require('./calcDisagreement');
+const calcAgreement = require('./calcAgreement');
+const calcGroupSizeScore = require('./calcGroupSizeScore');
+const calcIndividualScore = require('./calcIndividualScore');
+const generateMutatedIndividual = require('./generateMutatedIndividual');
+const generateOffspring = require('./generateOffspring');
+const generateRandomIndividual = require('./generateRandomIndividual');
+
+
+let dummy = require('./Genetic_Algo_Stuff');
 
