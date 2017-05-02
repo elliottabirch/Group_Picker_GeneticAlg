@@ -28,9 +28,8 @@ firstGen[i] = generatePopulation(firstGen);
 firstGen.sort(
   function (a, b) {
     return a.score - b.score;
-  },
+  }
 );
 
 // make gen out of top 2 parents
 const nextGen = generateNextGeneration(firstGen[0].genome, firstGen[1].genome);
-
