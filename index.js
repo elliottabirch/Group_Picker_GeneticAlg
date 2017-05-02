@@ -7,6 +7,7 @@ const generateRandomGenome = require('./generateRandomGenome');
 const genomeToArrangement = require('./genomeToArrangement');
 
 const dummy = require('./organizeDummyData');
+<<<<<<< HEAD
 
 let firstGen = [];
 let firstGenGenome =[];
@@ -33,3 +34,4 @@ firstGen.sort(
 
 // make gen out of top 2 parents
 const nextGen = generateNextGeneration(firstGen[0].genome, firstGen[1].genome);
+
