@@ -4,7 +4,10 @@ const calcGroupSizeScore = require('./calcGroupSizeScore');
 const calcArrangementScore = require('./calcArrangementScore');
 const generateNextGeneration = require('./generateNextGeneration');
 const generateRandomArrangement = require('./generateRandomArrangement');
-
+const generateMutatedArrangement = require('./generateMutatedArrangement');
+const generateOffspring = require('./generateOffspring');
+const generateRandomGenome = require('./generateRandomGenome');
+const genomeToArrangement = require('./genomeToArrangement');
 
 const dummy = require('./organizeDummyData');
 
@@ -27,4 +30,3 @@ firstGen.sort(
 
 // make gen out of top 2 parents
 const nextGen = generateNextGeneration(firstGen[0].genome, firstGen[1].genome);
-
