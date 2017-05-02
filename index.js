@@ -12,11 +12,13 @@ const genomeToArrangement = require('./genomeToArrangement');
 const dummy = require('./organizeDummyData');
 
 let firstGen = [];
+let firstGenGenome =[];
 let populationSize = 100;
 
 // generate random population
 for (var i = 0; i < populationSize; i++) {
-  firstGen[i] = genomeToArrangement(generateRandomGenome(dummy));
+  firstGenGenome[i] = generateRandomGenome(dummy);
+  firstGen[i] = genomeToArrangement(firstGenGenome[i]);
 }
 
 calcGroupDynamic(firsGen);
