@@ -2,7 +2,7 @@ module.exports = function (individuals) {
   var expectedGroupSize = 4;
   var numIndividuals = individuals.length;
   // starting with the number of individuals, find about how many groups we want to form
-  var numGroups = Math.ceil(Math.random() * numIndividuals / expectedGroupSize);
+  var numGroups = Math.ceil(numIndividuals / expectedGroupSize);
   // start a genome
   var genome = [];
 
