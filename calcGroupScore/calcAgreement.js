@@ -1,9 +1,8 @@
 module.exports = function (organizeDummyData, agreementArray, members) {
-  return members.reduce((score, index) => {
+  return members.reduce((score, index, i, array) => {
     if (agreementArray.includes(organizeDummyData[index].name)) {
       return score += 1;
-    } else {
-      return score;
     }
+    return score;
   }, 0);
 };

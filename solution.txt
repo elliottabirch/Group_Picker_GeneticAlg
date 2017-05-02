@@ -1,0 +1,222 @@
+-950
+0. danielBoone,louisCk,arthurDent,heman
+1. hannahMontana,stephenColbert,georgeWashington,hobbes
+2. wonderWoman,courageTheCowardlyDog,pinky,rickSanchez
+3. borat,michaelScott,donaldTrump,kanyeWest
+4. frodo,billNyeTheScienceGuy,albertEinstein,jeanLucPicard,albusPercivalWulfricBrianDumbledore
+5. kimJongUn,sterlingArcher,spongeBob,bojackHorseman
+6. superman,elsa,rickGrimes,pikachu
+-957
+0. kimJongUn
+1. wonderWoman,courageTheCowardlyDog,spongeBob,bojackHorseman
+2. michaelScott,rickSanchez,donaldTrump,kanyeWest
+3. frodo,sterlingArcher,jeanLucPicard,albusPercivalWulfricBrianDumbledore
+4. borat,danielBoone,arthurDent,heman
+5. louisCk,stephenColbert,billNyeTheScienceGuy,albertEinstein
+6. pinky,hannahMontana,georgeWashington,hobbes
+7. superman,elsa,rickGrimes,pikachu
+-965
+0. louisCk,arthurDent,georgeWashington,kanyeWest
+1. kimJongUn,pinky,billNyeTheScienceGuy,albusPercivalWulfricBrianDumbledore
+2. hannahMontana,stephenColbert,elsa,pikachu
+3. wonderWoman,sterlingArcher,albertEinstein,rickGrimes
+4. bojackHorseman
+5. borat,danielBoone,frodo,jeanLucPicard
+6. michaelScott,donaldTrump,spongeBob,hobbes
+7. courageTheCowardlyDog,superman,rickSanchez,heman
+-964
+0. donaldTrump,spongeBob,hobbes,kanyeWest
+1. michaelScott,wonderWoman,sterlingArcher,rickGrimes
+2. borat,hannahMontana,stephenColbert,georgeWashington
+3. billNyeTheScienceGuy,rickSanchez,heman,jeanLucPicard
+4. courageTheCowardlyDog,pinky,louisCk,bojackHorseman
+5. kimJongUn
+6. superman,arthurDent,elsa,pikachu
+7. danielBoone,frodo,albertEinstein,albusPercivalWulfricBrianDumbledore
+-959
+0. borat,michaelScott,donaldTrump,kanyeWest
+1. louisCk,superman,elsa,bojackHorseman
+2. stephenColbert,hobbes,pikachu,albusPercivalWulfricBrianDumbledore
+3. courageTheCowardlyDog,pinky,sterlingArcher,rickSanchez
+4. kimJongUn
+5. danielBoone,arthurDent,heman,georgeWashington
+6. frodo,billNyeTheScienceGuy,rickGrimes,jeanLucPicard
+7. wonderWoman,hannahMontana,albertEinstein,spongeBob
+-964
+0. albertEinstein,georgeWashington,hobbes,albusPercivalWulfricBrianDumbledore
+1. wonderWoman,pinky,louisCk,stephenColbert
+2. kimJongUn
+3. danielBoone,hannahMontana,spongeBob,bojackHorseman
+4. superman,arthurDent,heman,kanyeWest
+5. frodo,billNyeTheScienceGuy,rickGrimes,jeanLucPicard
+6. borat,michaelScott,rickSanchez,donaldTrump
+7. courageTheCowardlyDog,sterlingArcher,elsa,pikachu
+-962
+0. heman
+1. courageTheCowardlyDog,billNyeTheScienceGuy,rickSanchez,jeanLucPicard
+2. michaelScott,pinky,sterlingArcher,bojackHorseman
+3. kimJongUn,superman,rickGrimes,spongeBob
+4. borat,donaldTrump,hobbes,kanyeWest
+5. frodo,louisCk,georgeWashington,albusPercivalWulfricBrianDumbledore
+6. hannahMontana,stephenColbert,elsa,pikachu
+7. wonderWoman,danielBoone,arthurDent,albertEinstein
+
+\\
+12
+0. frodo,elsa,jeanLucPicard,albusPercivalWulfricBrianDumbledore
+1. hannahMontana,stephenColbert,georgeWashington,hobbes
+2. pinky,sterlingArcher,rickSanchez,heman
+3. kimJongUn,superman,rickGrimes
+4. wonderWoman,danielBoone,albertEinstein
+5. courageTheCowardlyDog,spongeBob,bojackHorseman,pikachu
+6. louisCk,arthurDent,billNyeTheScienceGuy
+7. borat,michaelScott,donaldTrump,kanyeWest
+33
+0. michaelScott,donaldTrump,spongeBob,kanyeWest
+1. frodo,hobbes,pikachu,albusPercivalWulfricBrianDumbledore
+2. kimJongUn,billNyeTheScienceGuy,rickGrimes,jeanLucPicard
+3. courageTheCowardlyDog,pinky,sterlingArcher,rickSanchez,bojackHorseman
+4. superman,elsa,heman,albertEinstein
+5. danielBoone,hannahMontana,stephenColbert,georgeWashington
+6. borat,wonderWoman,louisCk,arthurDent
+12
+0. billNyeTheScienceGuy,albertEinstein,rickGrimes,jeanLucPicard
+1. wonderWoman,courageTheCowardlyDog,elsa,heman
+2. danielBoone,frodo,georgeWashington
+3. borat,louisCk,arthurDent
+4. pinky,sterlingArcher,rickSanchez,bojackHorseman
+5. kimJongUn,hannahMontana,superman
+6. stephenColbert,hobbes,pikachu,albusPercivalWulfricBrianDumbledore
+7. michaelScott,donaldTrump,spongeBob,kanyeWest
+11
+0. danielBoone,arthurDent,heman,georgeWashington
+1. louisCk,bojackHorseman,kanyeWest
+2. borat,michaelScott,donaldTrump
+3. frodo,sterlingArcher,hobbes,albusPercivalWulfricBrianDumbledore
+4. kimJongUn,superman,rickGrimes
+5. hannahMontana,elsa,spongeBob,pikachu
+6. wonderWoman,courageTheCowardlyDog,pinky,rickSanchez
+7. stephenColbert,billNyeTheScienceGuy,albertEinstein,jeanLucPicard
+14
+0. louisCk,stephenColbert,georgeWashington
+1. courageTheCowardlyDog,pinky,sterlingArcher,bojackHorseman
+2. billNyeTheScienceGuy,albertEinstein,hobbes,albusPercivalWulfricBrianDumbledore
+3. danielBoone,frodo,arthurDent,heman
+4. borat,michaelScott,donaldTrump,kanyeWest
+5. wonderWoman,rickGrimes,spongeBob,pikachu
+6. hannahMontana,superman,elsa
+7. kimJongUn,rickSanchez,jeanLucPicard
+
+
+
+//
+
+35
+0. borat,rickSanchez,donaldTrump,kanyeWest
+1. kimJongUn,hannahMontana,superman,heman
+2. billNyeTheScienceGuy,albertEinstein,rickGrimes,jeanLucPicard
+3. michaelScott,pinky,sterlingArcher,spongeBob,bojackHorseman
+4. danielBoone,louisCk,arthurDent,georgeWashington
+5. wonderWoman,courageTheCowardlyDog,frodo,elsa
+6. stephenColbert,hobbes,pikachu,albusPercivalWulfricBrianDumbledore
+35
+0. hannahMontana,elsa,hobbes,pikachu
+1. kimJongUn,pinky,sterlingArcher,rickGrimes
+2. billNyeTheScienceGuy,albertEinstein,jeanLucPicard,albusPercivalWulfricBrianDumbledore
+3. courageTheCowardlyDog,superman,rickSanchez,heman
+4. danielBoone,frodo,arthurDent,georgeWashington
+5. wonderWoman,louisCk,stephenColbert,bojackHorseman
+6. borat,michaelScott,donaldTrump,spongeBob,kanyeWest
+36
+0. danielBoone,frodo,arthurDent,georgeWashington
+1. elsa,hobbes,pikachu,albusPercivalWulfricBrianDumbledore
+2. kimJongUn,sterlingArcher,superman,rickGrimes
+3. wonderWoman,billNyeTheScienceGuy,albertEinstein,jeanLucPicard
+4. louisCk,stephenColbert,rickSanchez,heman
+5. borat,michaelScott,donaldTrump,kanyeWest
+6. courageTheCowardlyDog,pinky,hannahMontana,spongeBob,bojackHorseman
+36
+0. kimJongUn,courageTheCowardlyDog,pinky,sterlingArcher,rickSanchez
+1. borat,donaldTrump,hobbes,kanyeWest
+2. michaelScott,spongeBob,bojackHorseman,pikachu
+3. superman,arthurDent,elsa,heman
+4. wonderWoman,albertEinstein,rickGrimes,jeanLucPicard
+5. louisCk,stephenColbert,billNyeTheScienceGuy,albusPercivalWulfricBrianDumbledore
+6. danielBoone,frodo,hannahMontana,georgeWashington
+29
+0. louisCk,stephenColbert,rickSanchez,heman
+1. michaelScott,danielBoone,frodo,hannahMontana
+2. kimJongUn,billNyeTheScienceGuy,jeanLucPicard,albusPercivalWulfricBrianDumbledore
+3. borat,donaldTrump,hobbes,kanyeWest
+4. superman,elsa,rickGrimes,pikachu
+5. sterlingArcher,arthurDent,albertEinstein,georgeWashington
+6. wonderWoman,courageTheCowardlyDog,pinky,spongeBob,bojackHorseman
+
+
+\\
+
+36
+0. kimJongUn,courageTheCowardlyDog,pinky,sterlingArcher,rickSanchez
+1. frodo,georgeWashington,hobbes,albusPercivalWulfricBrianDumbledore
+2. billNyeTheScienceGuy,albertEinstein,rickGrimes,jeanLucPicard
+3. borat,michaelScott,donaldTrump,kanyeWest
+4. danielBoone,arthurDent,heman,bojackHorseman
+5. wonderWoman,louisCk,stephenColbert,pikachu
+6. hannahMontana,superman,elsa,spongeBob
+37
+0. kimJongUn,courageTheCowardlyDog,pinky,rickSanchez,heman
+1. danielBoone,hannahMontana,spongeBob,georgeWashington
+2. superman,elsa,rickGrimes,pikachu
+3. frodo,stephenColbert,hobbes,albusPercivalWulfricBrianDumbledore
+4. borat,michaelScott,donaldTrump,kanyeWest
+5. sterlingArcher,billNyeTheScienceGuy,albertEinstein,jeanLucPicard
+6. wonderWoman,louisCk,arthurDent,bojackHorseman
+37
+0. louisCk,stephenColbert,rickSanchez,heman
+1. frodo,georgeWashington,hobbes,albusPercivalWulfricBrianDumbledore
+2. wonderWoman,hannahMontana,elsa,pikachu
+3. danielBoone,arthurDent,billNyeTheScienceGuy,albertEinstein
+4. courageTheCowardlyDog,pinky,sterlingArcher,spongeBob,bojackHorseman
+5. kimJongUn,superman,rickGrimes,jeanLucPicard
+6. borat,michaelScott,donaldTrump,kanyeWest
+36
+0. danielBoone,frodo,hannahMontana,elsa
+1. courageTheCowardlyDog,pinky,rickSanchez,heman
+2. kimJongUn,superman,rickGrimes,spongeBob
+3. sterlingArcher,billNyeTheScienceGuy,albertEinstein,jeanLucPicard,albusPercivalWulfricBrianDumbledore
+4. wonderWoman,louisCk,arthurDent,bojackHorseman
+5. borat,michaelScott,donaldTrump,kanyeWest
+6. stephenColbert,georgeWashington,hobbes,pikachu
+36
+0. wonderWoman,pinky,sterlingArcher,rickGrimes
+1. stephenColbert,georgeWashington,hobbes,albusPercivalWulfricBrianDumbledore
+2. kimJongUn,courageTheCowardlyDog,rickSanchez,heman
+3. borat,michaelScott,donaldTrump,kanyeWest
+4. louisCk,arthurDent,billNyeTheScienceGuy,albertEinstein
+5. hannahMontana,superman,elsa,spongeBob,pikachu
+6. danielBoone,frodo,bojackHorseman,jeanLucPicard
+36
+0. hannahMontana,stephenColbert,georgeWashington,hobbes
+1. kimJongUn,pinky,sterlingArcher,rickSanchez,spongeBob
+2. borat,michaelScott,donaldTrump,kanyeWest
+3. courageTheCowardlyDog,superman,heman,bojackHorseman
+4. wonderWoman,danielBoone,louisCk,arthurDent
+5. billNyeTheScienceGuy,albertEinstein,rickGrimes,jeanLucPicard
+6. frodo,elsa,pikachu,albusPercivalWulfricBrianDumbledore
+39
+0. wonderWoman,courageTheCowardlyDog,spongeBob,bojackHorseman
+1. hannahMontana,billNyeTheScienceGuy,albertEinstein,jeanLucPicard
+2. kimJongUn,pinky,sterlingArcher,rickSanchez
+3. danielBoone,louisCk,arthurDent,heman
+4. frodo,stephenColbert,georgeWashington,hobbes,albusPercivalWulfricBrianDumbledore
+5. superman,elsa,rickGrimes,pikachu
+6. borat,michaelScott,donaldTrump,kanyeWest
+-18
+0. louisCk,arthurDent,billNyeTheScienceGuy
+1. danielBoone,rickSanchez,heman,jeanLucPicard
+2. courageTheCowardlyDog,pinky,sterlingArcher,bojackHorseman
+3. stephenColbert,georgeWashington,hobbes
+4. wonderWoman,albertEinstein,rickGrimes,spongeBob
+5. kimJongUn,hannahMontana,superman
+6. frodo,elsa,pikachu,albusPercivalWulfricBrianDumbledore
+7. borat,michaelScott,donaldTrump,kanyeWest

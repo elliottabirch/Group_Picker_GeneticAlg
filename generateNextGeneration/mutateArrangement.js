@@ -1,3 +1,5 @@
+
+
 module.exports = function (arrangement) {
   const percentMutation = 0.10;
   const numberOfGroups = Math.ceil(arrangement.length / 4);

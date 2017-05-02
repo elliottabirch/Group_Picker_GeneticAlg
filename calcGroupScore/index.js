@@ -4,32 +4,19 @@ const calcGroupSizeScore = require('./calcGroupSizeScore');
 
 
 module.exports = function (members, organizeDummyData, groupSize) {
-  var score = members.reduce((score, name, i) => {
-    return score += (
-      calcDisagreement(organizeDummyData, organizeDummyData[name].disagreements, members.slice(0, i).concat(members.slice(i + 1))) + 
+  let score = members.reduce((total, name, i) => {
+    total += (
+    calcDisagreement(organizeDummyData, organizeDummyData[name].disagreements, members.slice(0, i).concat(members.slice(i + 1))) +
     calcAgreement(organizeDummyData, organizeDummyData[name].agreements, members.slice(0, i).concat(members.slice(i + 1))));
+    return total;
   }, 0);
   score += calcGroupSizeScore(members, groupSize);
   return score;
 };
 
-//input: 
-//small scale test run
-var group = {
-  members: [ /*array of indices*/ ],
-  score: 0,  //or undefined?
-};
+// input:
+// small scale test run
 
 
-//SCHEMA
+// large scale run run
 
-var likabilityTax = {
-  disagreement: -5,
-  neutral: 0,
-  agreement: +1
-};
-
-
-//large scale run run
-
- 

@@ -1,48 +1,64 @@
 
 const generateNextGeneration = require('./generateNextGeneration');
-const calcGroupDynamic = require('./fitnessHelpers/calcGroupDynamic');
 const generateRandomGenome = require('./generateRandomGenome');
-const genomeToArrangement = require('./genomeToArrangement');
-const updateGroupScores = require('./updateGroupScores');
-const calcArrangementScore = require('./calcArrangementScore');
+const generatePopulation = require('./generatePopulation');
+const calcDisagreement = require('./calcGroupScore/calcDisagreement');
+const calcAgreement = require('./calcGroupScore/calcAgreement');
+const calcGroupSizeScore = require('./calcGroupScore/calcGroupSizeScore');
+const fs = require('fs');
+
 
 const dummy = require('./organizeDummyData');
 
-let firstGen = [];
-const firstGenGenome = [];
-const populationSize = 100;
+const calculate = function () {
+  let generation = [];
+  const populationSize = 25;
 
-const finalizePopulation = function (firstGenGenome) {
-  return firstGenGenome.map(genome => genomeToArrangement(genome)).map((arrangement, index) => {
-    const updatedArrangement = updateGroupScores(arrangement, dummy, calcGroupDynamic);
-    return {
-      arrangement: updatedArrangement,
-      score: calcArrangementScore(updatedArrangement),
-      genome: firstGenGenome[index],
 
-    };
-  }).sort((a, b) => b.score - a.score);
-};
 // generate random population
-for (var i = 0; i < populationSize; i++) {
-  firstGenGenome[i] = generateRandomGenome(dummy);
-}
+  for (var i = 0; i < populationSize; i++) {
+    generation[i] = generateRandomGenome(dummy);
+  }
 
-firstGen = finalizePopulation(firstGenGenome);
-// console.log(firstGen);
-// make gen out of top 2 parents
-let nextGen = firstGen;
-for (var i = 0; i < 1000; i++) {
+  generation = generatePopulation(generation, dummy, 4);
+
+  for (var gen = 0; gen < 3000; gen++) {
   // console.log(nextGen[0].score, nextGen[0].score);
-  nextGen = generateNextGeneration(nextGen);
-  nextGen = finalizePopulation(nextGen);
-}
+    generation = generateNextGeneration(generation, dummy, 4, 0.2);
+  }
 
-const log = function (gen) {
-  console.log(gen[0].arrangement.map(group => ({
-    score: group.score,
-    members: group.members.map(index => dummy[index].name),
-  })));
+  const log = function (gen) {
+    console.log(gen[0].arrangement.map((group) => {
+      const members = group.members.map(index => [dummy[index].name, calcDisagreement(dummy, dummy[index].disagreements, group.members), calcAgreement(dummy, dummy[index].agreements, group.members)]);
+      return ({
+        agreements: members.reduce((accum, group) => accum + group[2], 0),
+        disagreements: members.reduce((accum, group) => accum + group[1], 0),
+      });
+    }), gen[0].score);
+    console.log(gen[1].arrangement.map((group) => {
+      const members = group.members.map(index => [dummy[index].name, calcDisagreement(dummy, dummy[index].disagreements, group.members), calcAgreement(dummy, dummy[index].agreements, group.members)]);
+      return ({
+        agreements: members.reduce((accum, group) => accum + group[2], 0),
+        disagreements: members.reduce((accum, group) => accum + group[1], 0),
+      });
+    }), gen[1].score);
+  };
+
+
+  const write = function (gen) {
+    fs.appendFile('solution.txt', (function (gen) {
+      let results = `${gen[0].score}\n`;
+      const groups = gen[0].arrangement.map(group => group.members.map(index => [dummy[index].name]));
+      groups.forEach((group, index) => {
+        results += `${index}. ${group}\n`;
+      });
+      return results;
+    }(gen)));
+  };
+
+  write(generation);
 };
 
-log(nextGen);
+for (var i = 0; i < 4; i++) {
+  calculate();
+}
