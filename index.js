@@ -1,6 +1,6 @@
 
-const calcArrangementScore = require('./calcArrangementScore');
 const generateNextGeneration = require('./generateNextGeneration');
+const calcGroupDynamic = require('./fitnessHelpers/calcGroupDynamic');
 const generateMutatedArrangement = require('./generateMutatedArrangement');
 const generateOffspring = require('./generateOffspring');
 const generateRandomGenome = require('./generateRandomGenome');
@@ -33,3 +33,4 @@ firstGen.sort(
 
 // make gen out of top 2 parents
 const nextGen = generateNextGeneration(firstGen[0].genome, firstGen[1].genome);
+
