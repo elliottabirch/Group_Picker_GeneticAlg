@@ -1,37 +1,48 @@
 
 const generateNextGeneration = require('./generateNextGeneration');
 const calcGroupDynamic = require('./fitnessHelpers/calcGroupDynamic');
-const generateMutatedArrangement = require('./generateMutatedArrangement');
-const generateOffspring = require('./generateOffspring');
 const generateRandomGenome = require('./generateRandomGenome');
 const genomeToArrangement = require('./genomeToArrangement');
+const updateGroupScores = require('./updateGroupScores');
+const calcArrangementScore = require('./calcArrangementScore');
 
 const dummy = require('./organizeDummyData');
-<<<<<<< HEAD
 
 let firstGen = [];
-let firstGenGenome =[];
-let populationSize = 100;
+const firstGenGenome = [];
+const populationSize = 100;
 
+const finalizePopulation = function (firstGenGenome) {
+  return firstGenGenome.map(genome => genomeToArrangement(genome)).map((arrangement, index) => {
+    const updatedArrangement = updateGroupScores(arrangement, dummy, calcGroupDynamic);
+    return {
+      arrangement: updatedArrangement,
+      score: calcArrangementScore(updatedArrangement),
+      genome: firstGenGenome[index],
+
+    };
+  }).sort((a, b) => b.score - a.score);
+};
 // generate random population
 for (var i = 0; i < populationSize; i++) {
   firstGenGenome[i] = generateRandomGenome(dummy);
-  firstGen[i] = genomeToArrangement(firstGenGenome[i]);
 }
 
-calcGroupDynamic(firsGen);
-calcArrangementScore(firstGen);
-
-// form into something useful
-firstGen[i] = generatePopulation(firstGen);
-
-// sort by score
-firstGen.sort(
-  function (a, b) {
-    return a.score - b.score;
-  }
-);
-
+firstGen = finalizePopulation(firstGenGenome);
+// console.log(firstGen);
 // make gen out of top 2 parents
-const nextGen = generateNextGeneration(firstGen[0].genome, firstGen[1].genome);
+let nextGen = firstGen;
+for (var i = 0; i < 1000; i++) {
+  // console.log(nextGen[0].score, nextGen[0].score);
+  nextGen = generateNextGeneration(nextGen);
+  nextGen = finalizePopulation(nextGen);
+}
 
+const log = function (gen) {
+  console.log(gen[0].arrangement.map(group => ({
+    score: group.score,
+    members: group.members.map(index => dummy[index].name),
+  })));
+};
+
+log(nextGen);

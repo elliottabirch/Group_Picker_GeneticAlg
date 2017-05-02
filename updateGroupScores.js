@@ -1,8 +1,6 @@
-module.exports = function(arrangement, callback) {
-  return arrangement.map((group)=>{
-    return {
+module.exports = function (arrangement, dummy, callback) {
+  return arrangement.map((group) => ({
       members: group.members,
-      score: callback(group.members),
-    };
-  });
+      score: callback(group.members, dummy, 4),
+    }));
 };
