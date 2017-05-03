@@ -1,13 +1,9 @@
-const generateOffspring = require('./generateOffspring');
 const generatePopulation = require('../generatePopulation');
+const breedTopTwoParents = require('./breedTopTwoParents.js');
+const breedRainbowParents = require('./breedRainbowParents.js');
 
 module.exports = function (population, dummyData, groupSize, mutationChance) {
-  const parentOne = population[0].genome;
-  const parentTwo = population[1].genome;
-  const nextGen = [parentOne, parentTwo];
-
-  for (var i = 2; i < 99; i++) {
-    nextGen[i] = generateOffspring(parentOne, parentTwo, mutationChance);
-  }
+  var nextGen = [];
+  nextGen = breedRainbowParents(population, mutationChance);
   return generatePopulation(nextGen, dummyData, groupSize);
 };
