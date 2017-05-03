@@ -4,6 +4,6 @@ const breedRainbowParents = require('./breedRainbowParents.js');
 
 module.exports = function (population, dummyData, groupSize, mutationChance) {
   var nextGen = [];
-  nextGen = breedTopTwoParents(population, mutationChance);
+  nextGen = breedRainbowParents(population, mutationChance);
   return generatePopulation(nextGen, dummyData, groupSize);
 };
